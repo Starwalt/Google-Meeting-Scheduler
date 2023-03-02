@@ -1,5 +1,26 @@
 # Google-Meeting-Scheduler
 
+#form
+
+```
+
+<form id="meeting-form">
+  <label for="title">Meeting Title:</label><br>
+  <input type="text" id="title" name="title" required><br>
+  <label for="start-time">Start Time:</label><br>
+  <input type="datetime-local" id="start-time" name="start-time" required><br>
+  <label for="end-time">End Time:</label><br>
+  <input type="datetime-local" id="end-time" name="end-time" required><br>
+  <label for="attendees">Attendees:</label><br>
+  <textarea id="attendees" name="attendees" required></textarea><br>
+  <button type="submit">Schedule Meeting</button>
+</form>
+
+
+```
+
+Javascript
+
 
 ```
 
